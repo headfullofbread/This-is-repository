@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
             background: #707070
         }
@@ -14,7 +17,6 @@
         }
         form {
             background-color: #FFFF;
-            box-sizing: border-box;
             padding: 50px 20px;
             border-bottom: 10px solid #46A358;
         }
@@ -48,7 +50,7 @@
             border: 1.5px solid #EAEAEA;
             color: #A5A5A5;
         }
-        button {
+        .RegButton {
             width: 100%;
             height: 45px;
             margin-top: 41px;
@@ -59,13 +61,14 @@
             cursor: pointer;
         }
         .continue-reg {
-            /* width: 100%; */
+            width: 100%;
             border: 1.5px solid #EAEAEA;
             border-radius: 5px;
-            /* height: 40px; */
+            height: 40px;
             font-size: 13px;
             text-align: center;
             color: #727272;
+            background-color: white;
             padding: 10px 20px;
         }
         .google {
@@ -82,20 +85,17 @@
             <div class="form-container">
                 <h2>Register</h2>
                 <p class="text-form">Enter your email and password to register.</p>
-                <input type="text" placeholder="Username">
-                <input type="email" placeholder="Enter yout email adress">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Comfirm password">
+                <input type="text" placeholder="Username" name="username" required>
+                <input type="email" placeholder="Enter yout email adress" name="email" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <input type="password" placeholder="Comfirm password" name="comfirm_password" required>
 
-                <button>Register</button>
+                <button class="RegButton">Register</button>
 
                 <p class="text-form sub-text">Or register with</p>
-                <div class="continue-reg google">
-                    <a href="https://www.google.com/">Continue with Google</a>
-                </div>
-                <div class="continue-reg facebook">
-                    <a href="https://www.facebook.com/">Continue with Facebook</a>
-                </div>
+                
+                <button class="continue-reg google">Continue with Google</button>
+                <button class="continue-reg facebook">Continue with Facebook</button>
             </div>
         </form>
     </div>
