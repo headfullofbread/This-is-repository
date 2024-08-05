@@ -154,13 +154,14 @@ input {
     vertical-align: middle;
 }
 
+/* Home Content */
+
 .home-content {
     font-size: 0;
 }
 
 .home-text,
-.home-img,
-.shop-btn {
+.home-img {
     display: inline-block;
 }
 
@@ -198,7 +199,7 @@ input {
 .shop-btn {
     width: 140px;
     height: 40px;
-    padding: 11px 27px;
+    padding: 11px 27px 9px;
     font-size: 14px;
     background-color: #46A358;
     color: #FFF;
@@ -206,4 +207,5 @@ input {
     text-decoration: none;
     text-align: center;
     margin: 44px 41px 0;
+    display: block;
 }
