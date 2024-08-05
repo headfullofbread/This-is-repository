@@ -1,5 +1,9 @@
 @import url('reset.css');
 
+body {
+    color: #3D3D3D;
+}
+
 .reg-background {
     background: #707070
 }
@@ -31,7 +35,7 @@ h2 {
 
 .text-form {
     font-size: 13px;
-    color: #3D3D3D;
+    color: inherit;
     margin-top: 40px;
     margin-bottom: 0px;
 }
@@ -123,7 +127,7 @@ input {
 }
 
 .header-list li a {
-    color: #000;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -148,4 +152,58 @@ input {
 
 .header-btn img {
     vertical-align: middle;
+}
+
+.home-content {
+    font-size: 0;
+}
+
+.home-text,
+.home-img,
+.shop-btn {
+    display: inline-block;
+}
+
+.home-text {
+    width: 693px;
+    vertical-align: top;
+}
+
+.home-text h1 {
+    font-size: 14px;
+    margin: 68px 43px 0;
+    text-transform: uppercase;
+}
+
+.home-top-text {
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 7px 0  0 40px;
+    width: 600px;
+}
+
+.home-sub-text {
+    font-size: 14px;
+    margin: 5px 43px 0;
+    width: 557px;
+    line-height: 24px;
+    color: #727272;
+}
+
+.home-img {
+    width: 507px;
+}
+
+.shop-btn {
+    width: 140px;
+    height: 40px;
+    padding: 11px 27px;
+    font-size: 14px;
+    background-color: #46A358;
+    color: #FFF;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    margin: 44px 41px 0;
 }
