@@ -219,3 +219,33 @@ input {
     margin: 44px 41px 0;
     display: inline-block;
 }
+
+/* Shop */
+
+.shop-content {
+    margin-top: 40px;
+}
+
+.shop-menu {
+    width: 310px;
+}
+
+.shop-categories h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.shop-categories a {
+    text-decoration: none;
+    color: #3D3D3D;
+    padding: 12px 0;
+    margin-left: 12px; 
+    display: inline-block;
+}
+
+.shop-categories li {
+    list-style: none;
+    color: #3D3D3D;
+}
+
